@@ -8,8 +8,8 @@ export interface INotificationStyleProps {
     titleStyleProps?: IStyle;
     subtitleStyleProps?: IStyle;
     messageStyleProps?: IStyle;
-    closeButtonStyleProps?: IStyle;
-    closeButtonHoveredStyleProps?: IStyle;
+    dismissButtonStyleProps?: IStyle;
+    dismissButtonHoveredStyleProps?: IStyle;
     // Discuss if we need to have this since OOB callback is not supported in customization
     customButtonStyleProps?: IStyle;
     customButtonHoveredStyleProps?: IStyle;

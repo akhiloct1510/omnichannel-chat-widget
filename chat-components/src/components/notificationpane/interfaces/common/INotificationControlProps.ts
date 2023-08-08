@@ -16,10 +16,11 @@ export interface INotificationControlProps {
     showMessage?: boolean;
     MessageText?: string;
 
-    showCloseButton?: boolean;
-    closeButtonProps?: ICommandButtonControlProps;
+    showDismissButton?: boolean;
+    dismissButtonProps?: ICommandButtonControlProps;
 
     // Discuss if we need to have this since OOB callback is not supported in customization
     showCustomButton?: boolean;
-    CustomButtonProps?: ICommandButtonControlProps;
+    customButtonText?: string;
+    customButtonAriaLabel?: string;
 }

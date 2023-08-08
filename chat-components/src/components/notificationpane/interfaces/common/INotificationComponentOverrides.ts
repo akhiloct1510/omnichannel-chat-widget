@@ -8,7 +8,7 @@ export interface INotificationComponentOverrides {
     title?: ReactNode | string;
     subtitle?: ReactNode | string;
     message?: ReactNode | string;
-    closeButton?: ReactNode | string;
+    dismissButton?: ReactNode | string;
     // Discuss if we need to have this since OOB callback is not supported in customization
     customButton?: ReactNode | string;
 }

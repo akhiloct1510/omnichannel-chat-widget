@@ -10,9 +10,6 @@ export interface IChatDisconnectStyleProps extends INotificationStyleProps {
     startChatButtonStyleProps?: IStyle;
     startChatButtonHoveredStyleProps?: IStyle;
 
-    closeChatButtonStyleProps?: IStyle;
-    closeChatButtonHoveredStyleProps?: IStyle;
-
     downloadTranscriptButtonStyleProps?: IStyle;
     downloadTranscriptButtonHoveredStyleProps?: IStyle;
 

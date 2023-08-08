@@ -6,7 +6,6 @@ export interface INotificationPaneClassNames {
     titleClassName?: string;
     subtitleClassName?: string;
     messageClassName?: string;
-    closeButtonClassName?: string;
     // Discuss if we need to have this since OOB callback is not supported in customization
     customButtonClassName?: string;
 }
