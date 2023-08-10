@@ -1,4 +1,5 @@
 import { ICommandButtonControlProps } from "../../../common/interfaces/ICommandButtonControlProps";
+import { IImageControlProps } from "../../../common/interfaces/IImageControlProps";
 
 /**
  * This interface will have the common control properties and is inherited by each scenarios.
@@ -13,14 +14,12 @@ export interface INotificationControlProps {
     showSubtitle?: boolean;
     subtitleText?: string;
 
-    showMessage?: boolean;
-    MessageText?: string;
-
     showDismissButton?: boolean;
     dismissButtonProps?: ICommandButtonControlProps;
 
-    // Discuss if we need to have this since OOB callback is not supported in customization
-    showCustomButton?: boolean;
-    customButtonText?: string;
-    customButtonAriaLabel?: string;
+    showLearnMoreLink?: boolean;
+    learnMoreLinkText?: string;
+    learnMoreLinkAriaLabel?: string;
+
+    notificationIconProps?: IImageControlProps;
 }

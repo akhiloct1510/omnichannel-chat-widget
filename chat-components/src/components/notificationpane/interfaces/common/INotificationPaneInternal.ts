@@ -1,5 +1,6 @@
 import { IStyle } from "@fluentui/react";
 import { ICommandButtonControlProps } from "../../../common/interfaces/ICommandButtonControlProps";
+import { IImageControlProps } from "../../../common/interfaces/IImageControlProps";
 import { IButtonCommonProps } from "../common/IButtonCommonProps";
 
 /**
@@ -27,11 +28,18 @@ export interface INotificationPaneInternal {
     subtitleStyleProps?: IStyle;
     subtitleClassName?: string;
 
-    // Message/ Description
-    showMessage?: boolean;
-    MessageText?: string;
-    messageStyleProps?: IStyle;
-    messageClassName?: string;
+    // Learn more link
+    showLearnMoreLink?: boolean;
+    learnMoreLinkText?: string;
+    learnMoreLinkAriaLabel?: string;
+    learnMoreLinkStyleProps?: IStyle;
+    learnMoreLinkHoveredStyleProps?: IStyle;
+    learnMoreLinkClassName?: string;
+
+    // Notification Icon
+    notificationIconProps?: IImageControlProps;
+    notificationIconStyleProps?: IStyle;
+    notificationIconClassName?: string;
 
     // Dismiss button "X"
     showDismissButton?: boolean;
@@ -39,17 +47,9 @@ export interface INotificationPaneInternal {
     dismissButtonStyleProps?: IStyle;
     dismissButtonHoveredStyleProps?: IStyle;
 
-    // Discuss if we need to have this since OOB callback is not supported in customization
-    // Custom button
-    showCustomButton?: boolean;
-    customButtonProps?: IButtonCommonProps
-
     // Define properties for - Chat disconnect scenario.
-    showStartChatButton?: boolean;
-    startChatButtonProps?: IButtonCommonProps
-
-    showDownloadTranscriptButton?: boolean;
-    downloadTranscriptButtonProps?: IButtonCommonProps
+    showCloseChatButton?: boolean;
+    closeChatButtonProps?: IButtonCommonProps
 
     // Define properties for - Start Chat scenario.
     // .....Continue adding properties for other notification scenarios

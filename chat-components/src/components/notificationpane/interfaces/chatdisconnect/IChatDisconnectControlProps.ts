@@ -6,11 +6,7 @@ import { INotificationControlProps } from "../common/INotificationControlProps";
  */
 export interface IChatDisconnectControlProps extends INotificationControlProps {
     // Add properties specific to Chat disconnect scenario
-    showStartChatButton?: boolean;
-    startChatButtonText?: string;
-    startChatButtonAriaLabel?: string;
-
-    showDownloadTranscriptButton?: boolean;
-    downloadTranscriptButtonText?: string;
-    downloadTranscriptButtonAriaLabel?: string;
+    showCloseChatButton?: boolean;
+    closeChatButtonText?: string;
+    closeChatButtonAriaLabel?: string;
 }

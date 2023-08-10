@@ -7,11 +7,8 @@ import { IChatDisconnectClassNames } from "./IChatDisconnectClassNames";
  * It extends the common style properties <INotificationStyleProps>
  */
 export interface IChatDisconnectStyleProps extends INotificationStyleProps {
-    startChatButtonStyleProps?: IStyle;
-    startChatButtonHoveredStyleProps?: IStyle;
-
-    downloadTranscriptButtonStyleProps?: IStyle;
-    downloadTranscriptButtonHoveredStyleProps?: IStyle;
+    closeChatButtonStyleProps?: IStyle;
+    closeChatButtonHoveredStyleProps?: IStyle;
 
     classNames?: IChatDisconnectClassNames;
 }

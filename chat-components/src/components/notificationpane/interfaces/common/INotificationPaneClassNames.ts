@@ -5,7 +5,6 @@ export interface INotificationPaneClassNames {
     containerClassName?: string;
     titleClassName?: string;
     subtitleClassName?: string;
-    messageClassName?: string;
-    // Discuss if we need to have this since OOB callback is not supported in customization
-    customButtonClassName?: string;
+    learnMoreLinkClassName?: string;
+    notificationIconClassName?: string;
 }

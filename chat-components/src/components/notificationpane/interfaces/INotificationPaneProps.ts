@@ -11,6 +11,4 @@ export interface INotificationPaneProps {
     // attachmentNotificationProps?: IAttachmentNotificationProps;
     // networkConnectionNotificationProps?: INetworkConnectionNotificationProps;
     // .....Continue adding other notification scenarios
-
-    notificationScenarioType?: string;
 }

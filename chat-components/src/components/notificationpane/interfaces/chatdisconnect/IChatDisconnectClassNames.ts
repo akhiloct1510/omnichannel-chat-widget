@@ -5,6 +5,5 @@ import { INotificationPaneClassNames } from "../common/INotificationPaneClassNam
  * It extends the common class names properties <INotificationPaneClassNames>
  */
 export interface IChatDisconnectClassNames extends INotificationPaneClassNames {
-    startChatButtonClassName?: string;
-    downloadTranscriptButtonClassName?: string;
+    closeChatButtonClassName?: string;
 }
